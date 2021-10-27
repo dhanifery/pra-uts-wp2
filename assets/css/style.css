@@ -1,0 +1,272 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   text-decoration: none;
+   font-family: "Poppins",sans-serif;
+
+}
+h1 {
+   color: #426696;
+   font-weight: 600;
+   font-size: 2.3rem;
+   opacity: 0.8;
+}
+h2,
+p{
+   color: #6583c6;
+   font-weight: 500;
+   opacity: 0.8
+}
+h3 {
+   color: #426696;
+   font-weight: 600;
+   opacity: 0.8;
+}
+
+/* CSS V_TAMPIL **/
+main{
+   font-family: "Poppins",sans-serif;
+   min-height: 100vh;
+   background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.glass{
+   background: white;
+   min-height: 70vh;
+   width: 70%;
+   backdrop-filter: blur(2rem);
+   background: linear-gradient(to right bottom,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3));
+   border-radius: 2rem;
+   z-index: 2;
+   display: flex;
+}
+
+.circle1,
+.circle2 {
+   background: white;
+   background: linear-gradient(to right bottom,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.3)
+      );
+   height: 12rem;
+   width: 12rem;
+   position: absolute;
+   border-radius: 50%;
+
+
+}
+.circle1 {
+   top: 5%;
+   right: 8%;
+}
+.circle2 {
+   bottom: 5%;
+   left: 8%;
+}
+
+img {
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+  margin-bottom: -10px;
+}
+
+.user h3{
+   padding: 1rem;
+   font-size: 18px;
+   margin-bottom: -14px;
+}
+.user p {
+   font-size: 14px;
+}
+
+
+.dashboard {
+   flex: 0.7;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+   text-align: center;
+   background: linear-gradient(to right bottom,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3));
+   border-radius: 2rem 0  0 2rem;
+}
+
+.tabel {
+   flex: 2;
+}
+
+nav ul li {
+   margin: 1rem;
+   padding: 0.7rem 1rem;
+   list-style: none;
+}
+nav ul li a{
+   display: flex;
+   align-items: center;
+   color: #6cdbeb;
+   text-decoration: none;
+}
+nav ul li:hover {
+   margin: 1rem;
+   padding: 0.7rem 1rem;
+   list-style: none;
+   background: linear-gradient(to right bottom,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3));
+   border-radius: 12px;
+}
+nav ul li a:hover {
+   color: #426696;
+
+}
+.card{
+   margin-bottom: 1.5rem;
+}
+
+.card input{
+   border: none;
+   background: linear-gradient(to right bottom,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3));
+   width: 50%;
+   padding:0.3rem;
+   border-radius: 2rem;
+
+}
+.informasi {
+   margin: 1rem;
+   padding: 0.5rem 1.3rem;
+   list-style: none;
+   background: #6583c6;
+   border-radius: 10px;
+   opacity: 0.8;
+}
+.informasi p {
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+}
+
+.tabel{
+   margin: 5rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+}
+.tabel_info{
+   display: grid;
+   justify-content: center;
+   align-items: center;
+
+}
+
+tr th{
+   box-shadow: 0 5px 2px white;
+   padding: 1.2rem;
+   color: white;
+   background: #6583c6;
+   letter-spacing: 0.2rem;
+   text-transform: uppercase;
+   font-size: 0.7rem;
+   font-weight: 900;
+
+}
+table {
+   border-collapse: collapse;
+   box-shadow: 0 2px 3px #6583c6;
+   background: linear-gradient(to right bottom,
+         rgba(255, 255, 255, 0.7),
+         rgba(255, 255, 255, 0.3));
+   text-align: center;
+   overflow: hidden;
+   color: #6583c6;
+   font-size: 15px;
+   font-weight: 500;
+   border-radius: 10px;
+}
+
+td{
+   padding: 10px;
+}
+
+.tambah{
+   display: flex;
+}
+span {
+   position: absolute;
+   top: 23%;
+   right: 11%;
+   margin-top: 1rem;
+   background: linear-gradient(to right bottom,
+         rgba(255, 255, 255, 0.7),
+         rgba(255, 255, 255, 0.3));
+   padding: 8px 7px;
+   font-size: 12px;
+   font-weight: bold;
+   border-radius: 12px;
+   box-shadow: 0 2px 3px #6583c6;
+}
+span:hover{
+   background:white;
+}
+
+
+/* CSS V_INPUT **/
+
+.dashboard2 h3{
+   margin: 2rem;
+   padding: 2rem;
+   font-size: 25px;
+}
+.form{
+   margin-top: -1rem;
+
+}
+.form table{
+      margin: auto;
+}
+
+.layar{
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+   background: linear-gradient(to right bottom,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3));
+   border-radius:  0 2rem 2rem 0;
+}
+.layar h3{
+   font-size: 30px;
+}
+.layar p{
+   margin: 1rem;
+}
+
+
+/* CSS V_EDIT **/
+.dashboard3{
+   margin: 2rem;
+   padding: 2rem;
+   font-size: 25px;
+   flex: 0.3;
+   align-items: center;
+}
+
+.dashboard3 h3{
+   text-align: center;
+   martop: 3rem;
+}
+.dashboard3 .form{
+   margin-top: 3rem;
+}
