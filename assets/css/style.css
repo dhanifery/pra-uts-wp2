@@ -270,3 +270,21 @@ span:hover{
 .dashboard3 .form{
    margin-top: 3rem;
 }
+table td .submit{
+   background:#6583c6;
+   opacity: 0.7;
+   padding: 6px 7px;
+   color: white;
+   font-size: 12px;
+   border-radius: 12px;
+   box-shadow: 0 2px 2px #6583c6;
+}
+table td .submit:hover{
+   background:#6583c6;
+   opacity: 1;
+   padding: 6px 7px;
+   color: white;
+   font-size: 12px;
+   border-radius: 12px;
+   box-shadow: 0 2px 2px #6583c6;
+}

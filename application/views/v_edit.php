@@ -34,7 +34,7 @@
                               <td>:</td>
                               <td><input type="text" name="alamat" value="<?php echo $u->alamat ?>"></td>
                            </tr>
-                           <td><input type="submit" value="Simpan"></td>
+                           <td><input class="submit" type="submit" value="Simpan"></td>
                         </table>
                      </form>
                   <?php } ?>

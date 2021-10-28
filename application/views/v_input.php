@@ -37,7 +37,7 @@
                            <td>:</td>
                            <td><input type="text" name="alamat" id=""></td>
                         </tr>
-                        <td><input type="submit" value="Tambah"></td>
+                        <td><input class="submit" type="submit" value="Tambah"></td>
                      </table>
                   </form>
                </div>
