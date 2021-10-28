@@ -112,7 +112,8 @@ nav ul li {
 nav ul li a{
    display: flex;
    align-items: center;
-   color: #6cdbeb;
+   color: #426696;
+   opacity: 0.6;
    text-decoration: none;
 }
 nav ul li:hover {
@@ -126,6 +127,7 @@ nav ul li:hover {
 }
 nav ul li a:hover {
    color: #426696;
+   opacity: 1;
 
 }
 .card{
@@ -148,12 +150,10 @@ nav ul li a:hover {
    list-style: none;
    background: #6583c6;
    border-radius: 10px;
-   opacity: 0.8;
 }
 .informasi p {
       color: white;
       font-size: 12px;
-      font-weight: bold;
 }
 
 .tabel{
